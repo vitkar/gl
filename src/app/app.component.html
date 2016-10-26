@@ -1,3 +1,15 @@
-<h1>
-  {{title}}
-</h1>
+<div class="ui fixed menu">
+    <div class="ui container">
+      <a class="header item">Vitkar GL</a>
+      <div class="ui simple dropdown item">
+        Masters <i class="dropdown icon"></i>
+        <div class="menu dropdown">
+          <a class="item">Accounts</a>
+          <a class="item">General Journals</a>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="ui main container">
+  <router-outlet></router-outlet>
+</div>
